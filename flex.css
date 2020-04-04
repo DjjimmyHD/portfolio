@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+
+/* Global CSS */
+  body {
+    font-family: 'Segoe UI';
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    background: gray;
+    border: 3px black solid;
+    border-radius: 5px;
+  }
+
+  header {
+      align-items: center;
+      padding: 10px;
+      width: 400px;
+      text-align: center;
+  }
+
+  footer {
+      display: flex;
+      align-items: center;
+      background: gray;
+  }
+
+  section {
+      padding: 10px;
+  }
+
+ /* Targeted Element CSS  */
+  #navigation {
+      align-items: center;
+      justify-content: center;
+      height: 60px;
+    border: 3px red solid;
+  }
+
+  #hero {
+      font-size: 30px;
+      border: 3px red solid;
+  }
+
+  #greeting {
+
+  }
+
+  #about {
+
+  }
+
+  #portfolio {
+
+  }
