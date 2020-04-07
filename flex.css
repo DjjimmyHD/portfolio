@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
 
-/* Global CSS */
+/* Mobile View */
   body {
     font-family: 'Trebuchet MS';
   }
@@ -42,6 +42,7 @@
   }
 
   section {
+    display: flex;
     margin-top: 10px;
     padding: 10px;
   }
@@ -49,7 +50,7 @@
  /* Targeted Element CSS  */
 
   nav > #name {
-    padding-left: 50px;
+    padding-left: 150px;
     width: 50%;
   }
 
@@ -71,13 +72,23 @@
   }
 
   #about {
-    border: 3px red solid;
+    position: absolute;
+    top: 685px;
+    height: 300px;
+    background: black;
     width: 100%;
+    color: white;
+    justify-content: center;
   }
 
   #portfolio {
     border: 3px red solid;
-    width: 100%;
+    position: relative;
+    top: 300px;
+    width: 750px;
+    height: 650px;
+    justify-content: center;
+    margin-bottom: 70px;
   }
 
   #email {
